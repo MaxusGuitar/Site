@@ -355,6 +355,6 @@ header .container {
 .icon-link {
   margin-right: 10px;
 }
-.icon-link :hover {
+.icon-link:hover {
   fill: var(--bluecol);
 }
