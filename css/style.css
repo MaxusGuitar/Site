@@ -374,3 +374,52 @@ header .container {
   width: 270px;
   height: 120px;
 }
+
+.icon-client {
+  width: 106px;
+  height: 60px;
+}
+
+.icon-link-client {
+  fill: #afb1b8;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  width: 170px;
+  height: 92px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+}
+.icon-link-client:hover,
+.icon-link-client:focus {
+  fill: var(--bluecol);
+  border-color: var(--bluecol);
+}
+
+.cocial {
+  margin-top: 16px;
+  display: flex;
+  justify-content: center;
+}
+
+.cocial-link {
+  width: 20px;
+  height: 20px;
+}
+.cocial-link-href {
+  fill: #afb1b8;
+  display: flex;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+.cocial-link-href:focus,
+.cocial-link-href:hover {
+  background-color: var(--bluecol);
+  fill: #fff;
+}
+.cocial-margin {
+  margin-right: 10px;
+}
