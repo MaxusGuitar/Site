@@ -127,7 +127,13 @@ header .container {
 }
 
 .bigblock {
-  background: var(--bigblock);
+  background-image: linear-gradient(
+      to top,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../title.jpg);
+
   padding-top: 200px;
   padding-bottom: 200px;
 }
@@ -159,12 +165,7 @@ header .container {
   border-radius: 4px;
   transition: 500ms;
 }
-.order-but:hover {
-  width: 250px;
-  height: 65px;
-  border-radius: 8px;
-  box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.15);
-}
+
 .center {
   text-align: center;
 }
@@ -352,9 +353,24 @@ header .container {
   letter-spacing: 0.03em;
 }
 
-.icon-link {
+.icon-mail {
+  width: 16px;
+  height: 12px;
+  stroke: currentColor;
   margin-right: 10px;
 }
-.icon-link:hover {
-  fill: var(--bluecol);
+
+.icon-phone {
+  width: 10px;
+  height: 16px;
+  stroke: currentColor;
+  margin-right: 10px;
+}
+
+.icon-clock,
+.icon-pc,
+.icon-astronaut,
+.icon-sputnik {
+  width: 270px;
+  height: 120px;
 }
