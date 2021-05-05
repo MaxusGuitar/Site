@@ -406,6 +406,7 @@ header .container {
   width: 20px;
   height: 20px;
 }
+.cocial-link-href2,
 .cocial-link-href {
   fill: #afb1b8;
   display: flex;
@@ -415,11 +416,33 @@ header .container {
   align-items: center;
   justify-content: center;
 }
+.cocial-link-href2 {
+  background: rgba(255, 255, 255, 0.1);
+}
+.cocial-link-href2:hover,
 .cocial-link-href:focus,
 .cocial-link-href:hover {
   background-color: var(--bluecol);
   fill: #fff;
 }
+
 .cocial-margin {
   margin-right: 10px;
+}
+
+.cocial2 {
+  color: #fff;
+}
+
+.footer2 {
+  margin-top: 72px;
+}
+
+.content {
+  align-items: baseline;
+  display: flex;
+}
+
+.margin-content {
+  margin-right: 70px;
 }
