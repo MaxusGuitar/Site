@@ -68,9 +68,6 @@ nav {
 }
 
 .header {
-  position: fixed;
-  width: 100%;
-  background-color: #fff;
   padding: 24px 0px 25px 0px;
 }
 
@@ -102,11 +99,26 @@ header .container {
 }
 
 .nav-link {
+  position: relative;
   font-weight: 500;
   line-height: 2.14;
 }
+.nav-link::after {
+  position: absolute;
+  content: "";
+  width: 100%;
+  background: #2196f3;
+  height: 2px;
+  border-radius: 2px;
+  display: block;
+  margin-top: 30px;
+  opacity: 0;
+}
 .nav-link:hover {
   color: var(--bluecol);
+}
+.nav-link:hover::after {
+  opacity: 1;
 }
 
 .con-item {
@@ -327,6 +339,7 @@ header .container {
   margin: -15px;
 }
 .project {
+  position: relative;
   margin: 15px;
   width: 370px;
 }
@@ -448,4 +461,31 @@ header .container {
 
 .margin-content {
   margin-right: 70px;
+}
+
+.rotate {
+  position: relative;
+  opacity: 0;
+  padding: 63px 24px 63px 24px;
+  position: absolute;
+  background: rgba(33, 150, 243, 0.9);
+  height: 294px;
+}
+
+.rotate-text {
+  color: white;
+  font-family: var(--anyfont);
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 28px;
+  letter-spacing: 0.03em;
+}
+
+.product-link {
+  display: block;
+}
+.product-link:hover .rotate,
+.product-link:focus .rotate {
+  opacity: 1;
 }
