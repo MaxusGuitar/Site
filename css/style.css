@@ -246,7 +246,7 @@ header .container {
   display: flex;
   justify-content: space-between;
 }
-.card-people {
+.people-list {
   background-color: var(--backcol);
   width: 270px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -254,9 +254,7 @@ header .container {
   border-radius: 0px 0px 4px 4px;
   padding-bottom: 30px;
 }
-.card-people:last-child {
-  margin-right: 0px;
-}
+
 .title-name {
   font-family: var(--anyfont);
   color: var(--title-color);
@@ -431,7 +429,7 @@ header .container {
   width: 20px;
   height: 20px;
 }
-.cocial-link-href3,
+.cocial-href,
 .cocial-margin .cocial-link-href {
   display: flex;
   width: 44px;
@@ -451,16 +449,13 @@ header .container {
   fill: #fff;
 }
 
-.cocial-link-href3 {
+.cocial-href {
+  background: rgba(255, 255, 255, 0.1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   fill: #ffffff;
 }
 
-.cocial-link-href3 {
-  background: rgba(255, 255, 255, 0.1);
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.cocial-margin .cocial-link-href3:hover,
+.cocial-margin .cocial-href:hover,
 .cocial-margin .cocial-link-href:focus,
 .cocial-margin .cocial-link-href:hover {
   background-color: var(--bluecol);
@@ -470,7 +465,7 @@ header .container {
   margin-right: 10px;
 }
 
-.cocial2 {
+.white {
   color: #fff;
 }
 
@@ -792,11 +787,11 @@ header .container {
   fill: #2196f3;
 }
 
-.back {
+.back-list {
   position: relative;
 }
 
-.back-text {
+.text-list {
   font-family: roboto;
   display: flex;
   justify-content: center;
