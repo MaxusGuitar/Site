@@ -11,6 +11,7 @@
 @import "./components/buttons";
 @import "./components/icons";
 @import "./components/modal";
+@import "./components/foter";
 
 .about-name {
   font-family: var(--anyfont);
@@ -135,7 +136,7 @@
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  background: #f5f4fa;
+  background: white;
 }
 .list-team {
   display: flex;
@@ -170,38 +171,9 @@
   text-align: center;
 }
 
-.footer {
-  background: #2f303a;
-  padding-top: 60px;
-  padding-bottom: 60px;
-}
-
 .address {
   font-style: normal;
   margin-top: 15px;
-}
-
-.address-street {
-  color: var(--backcol);
-  font-family: var(--anyfont);
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin-bottom: 9px;
-}
-.footer-item-list {
-  margin-top: 9px;
-}
-.footer .footer-link {
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  color: rgba(255, 255, 255, 0.6);
-}
-.footer .footer-link:hover {
-  color: var(--bluecol);
-}
-.footer .footer-link:focus {
-  color: var(--bluecol);
 }
 
 .catalog {
@@ -283,17 +255,4 @@
 .project-link:hover .rotate,
 .project-link:focus .rotate {
   opacity: 1;
-}
-
-.agreement-label {
-  font-family: roboto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
-  margin-bottom: 30px;
-  color: #757575;
 }

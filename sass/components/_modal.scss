@@ -159,7 +159,7 @@
 }
 
 .agreement-checkbox:checked + .agreement-label::before {
-  background-image: url(/icons/galka.svg);
+  background-image: url("../icons/galka.svg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: contain;
@@ -181,4 +181,17 @@
 .backdrop.is-hidden {
   opacity: 0;
   pointer-events: none;
+}
+
+.agreement-label {
+  font-family: roboto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  margin-bottom: 30px;
+  color: #757575;
 }
